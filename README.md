@@ -7,8 +7,8 @@ A Python script that downloads historical weather data from NOAA's Global Histor
 This script:
 1. Downloads a complete inventory of GHCN weather stations
 2. Filters stations based on:
-  - Geographic proximity to Indiana (within 300 miles)
-  - Data availability between 2005-2015
+  - Geographic proximity to your specified latitude and longitude
+  - Data availability
 3. Downloads daily weather data files for all matching stations
 
 ## Requirements
